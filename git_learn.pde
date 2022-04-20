@@ -22,7 +22,7 @@ void kao(int don, float b){
   fill(#e7eedd);
   ellipse(b,0,50,50);
   noStroke();
-  fill (#68c0c0 + #8f8768 * don);
+  fill(#68c0c0 + #8f8768 * don);
   ellipse(b,0,38,38);
   
   stroke(0);
