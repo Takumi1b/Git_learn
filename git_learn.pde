@@ -11,9 +11,20 @@ void draw(){
   rotate(a);
   scale(a/15);
   a += 0.05;
+  kao(0,-50);
+  kao(0,50);
   if(a>30) a-=50;
 }
 
+void kao(int don, float b){
+  stroke(0);
+  strokeWeight(2);
+  fill(#e7eedd);
+  ellipse(b,0,50,50);
+  noStroke();
+  fill (#68c0c0 + #8f8768 * don);
+  ellipse(b,0,38,38);
+  
   stroke(0);
   strokeWeight(1.4);
   arc (b + 4.26,5,8.5,7.3,0.3,PI,OPEN);
