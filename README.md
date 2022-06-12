@@ -14,6 +14,6 @@ Windows,Linux環境では試してません
 
 # Author
 
-* 田邊　匠
+* TanabeTakumi
 * 京都産業大学大学院　先端情報学研究科
 * i2286095@cc.kyoto-su.ac.jp
